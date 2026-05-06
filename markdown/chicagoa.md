@@ -410,9 +410,9 @@ Refer to original source
 
 #### Bibliography examples
 
-> {.hanging-indent}Patt, Doug. *How to Architect*. MIT Press. 2012. {/.hanging-indent}
-> {.hanging-indent}Oranje, Mark, and Tuna Taşan-Kok. *From Student to Urban Planner: Young Practitioners’ Reflections on Contemporary Ethical& Challenges.* Routledge. 2017. {/.hanging-indent}
-> {.hanging-indent}Enwezor, Okwui, Nancy Condee, Terry Smith, Antonio Negri, Geeta Kapur, and Rosalind Krauss. *Antinomies of Art and Culture: Modernity, Postmodernity, Contemporaneity.* Duke University Press, 2008. {/.hanging-indent}
+> {.hanging-indent}Patt, Doug. *How to Architect*. MIT Press, 2012. {/.hanging-indent}
+> {.hanging-indent}Oranje, Mark, and Tuna Taşan-Kok. *From Student to Urban Planner: Young Practitioners’ Reflections on Contemporary Ethical& Challenges.* Routledge, 2017. {/.hanging-indent}
+> {.hanging-indent}Smith, Terry, Okwui Enwezor, and Nancy Condee. *Antinomies of Art and Culture: Modernity, Postmodernity, Contemporaneity.* Duke University Press, 2008. {/.hanging-indent}
 
 ###### end-subtype-content
 
@@ -747,7 +747,7 @@ OR
 
 ##### Bibliography examples
 
-> {.hanging-indent}McCarthy, Christine. “Toward a Definition of Interiority.” *Space & Culture* 8, no. 2 (2005): 112–25, https<nolink>://doi.org/10.1177/1206331205275020. {/.hanging-indent}
+> {.hanging-indent}McCarthy, Christine. “Toward a Definition of Interiority.” *Space & Culture* 8, no. 2 (2005): 112–25. https<nolink>://doi.org/10.1177/1206331205275020. {/.hanging-indent}
 > {.hanging-indent}Rosler, Martha, Caroline Walker Bynum, Natasha Eaton et al., "Notes from the Field: Materiality," *The Art Bulletin* 95, no. 1 (2013): 10-37, https<nolink>://doi.org/10.1080/00043079.2013.10786104. {/.hanging-indent}
 
 OR
@@ -781,7 +781,7 @@ Cite journal articles accessed in print in the same way as journal articles acce
 
 #### Bibliography rule
 
-{.hanging-indent}Author’s Family Name, Author’s Given Name. “Title of Article.” *Title of Publication* Volume Number, no. Issue Number (Year of Publication): Article page range. {/.hanging-indent}
+{.hanging-indent}Author’s Family Name, Author’s Given Name. “Title of Article.” *Title of Publication* Volume Number, Issue Number (Year of Publication): Article page range. {/.hanging-indent}
 
 ##### Bibliography example
 
@@ -1316,7 +1316,7 @@ Include a publication date or date of revision if this is available. However,it 
 
 #### Bibliography rule
 
-{.hanging-indent}Author’s Family Name, Author’s Given Name. "Title or Description of Page." Website Name, Year of Publication. Accessed date. URL. {/.hanging-indent}
+{.hanging-indent}Author’s Family Name, Author’s Given Name. "Title or Description of Page." Website Name. Year of Publication. Accessed date. URL. {/.hanging-indent}
 
 ##### Bibliography examples
 
