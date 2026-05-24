@@ -97,7 +97,7 @@ Always check with your tutor or lecturer about any specific requirements they ha
 
 Example;
 
-> {.footnote-indent}1. Doug Patt, *How to Architect* (Cambridge, Mass: MIT Press. 2012), 28.{/.footnote-indent}
+> {.footnote-indent}1. Doug Patt, *How to Architect* (MIT Press, 2012), 28.{/.footnote-indent}
 
 **When do I use a shortened note?**
 
@@ -240,7 +240,7 @@ The second line of each bibliography entry has a hanging indent.
 {.centre-align}**Bibliography**{/.centre-align}
 
 {.hanging-indent}
-Bagley,Benjamin. “Loving Someone in Particular,” *Ethics* 125, no. 2 (January 2015): 477–507.
+Bagley,Benjamin. “Loving Someone in Particular,” *Ethics* 125, no. 2 (Jan 2015): 477–507.
 
 Fellini, Federico. “Fountain Scene.” *La Dolce Vita*. Australia: Umbrella Entertainment, 2005. DVD.
 
