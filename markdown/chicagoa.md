@@ -97,7 +97,7 @@ Always check with your tutor or lecturer about any specific requirements they ha
 
 Example;
 
-> {.footnote-indent}1. Doug Patt, *How to Architect* (Cambridge, Mass: MIT Press. 2012), 28.{/.footnote-indent}
+> {.footnote-indent}1. Doug Patt, *How to Architect* (MIT Press, 2012), 28.{/.footnote-indent}
 
 **When do I use a shortened note?**
 
@@ -240,7 +240,7 @@ The second line of each bibliography entry has a hanging indent.
 {.centre-align}**Bibliography**{/.centre-align}
 
 {.hanging-indent}
-Bagley,Benjamin. “Loving Someone in Particular,” *Ethics* 125, no. 2 (January 2015): 477–507.
+Bagley,Benjamin. “Loving Someone in Particular,” *Ethics* 125, no. 2 (Jan 2015): 477–507.
 
 Fellini, Federico. “Fountain Scene.” *La Dolce Vita*. Australia: Umbrella Entertainment, 2005. DVD.
 
@@ -2000,7 +2000,7 @@ For more information on how to critically evaluate information sources, visit th
 <!-- first accordion item -->
 ###### start-subtype-content
 
-**Please note** that the guidelines on how to reference AI tools have been updated in February 2026. 
+**Please note** that the guidelines on how to reference AI tools have been updated in February 2026.
 
 #### Using generative artificial intelligence (AI) in learning and research, including assessment tasks
 The educators within your courses can tell you if you are able to use artificial intelligence (AI) tools in your assessment tasks, including how you can use the tools and what tools you can use. If you use any AI tools, you must appropriately acknowledge and reference the use of these tools and their outputs. Failure to reference the use of these tools can result in academic misconduct.
@@ -2009,7 +2009,7 @@ The educators within your courses can tell you if you are able to use artificial
 
 #### Current Australian copyright law relating to AI-generated content
 The Australian Copyright Act does not explicitly mention AI-generated content; however the Act can give some guidance as to what copyright protects and how copyright is infringed.
-Copyright protection in Australia is free and automatic as soon as content is in a material form (e.g. a text is written, a song is recorded or an artwork is painted). It does not need to be registered, applied for or paid for. 
+Copyright protection in Australia is free and automatic as soon as content is in a material form (e.g. a text is written, a song is recorded or an artwork is painted). It does not need to be registered, applied for or paid for.
 To be protected content must be original and be made by a human author. If a work is not created by a human author, it is not protected by copyright.
 A work created solely by AI is not created by a human and does not qualify for Copyright protection in Australia.
 Due to the prompts and training data, it can be unclear who owns the copyright in outputs from generative AI tools.
@@ -2019,7 +2019,7 @@ For more information, see the RMIT Copyright library guide.
 
 In some assessment tasks, you may be able to use AI tools for background research, to generate an outline for your essay or report, or to get feedback on your writing and structure. In such cases, you are using AI tools in the process of creating the work but you are not included AI-generated content in your final work. For this type of AI use, you need to include an acknowledgement of what AI tools were used and how they were used within the body or methods section of your work. If you include any AI-generated outputs in your work (including text, images or code) you need to include a citation and a reference - see the referencing guidelines below for more details.
 
-The advice below is based on the current (September 2025) advice from the APA 7th style manual editors, as the other style manual editors do not provide specific advice for acknowledging the use of AI tools. 
+The advice below is based on the current (September 2025) advice from the APA 7th style manual editors, as the other style manual editors do not provide specific advice for acknowledging the use of AI tools.
 
 In your acknowledgement, include the following:
 
@@ -2031,7 +2031,7 @@ In your reference list or bibliography, include an entry for the AI tool. Please
 
 **Format for the acknowledgement:**
 
-I used [tool used] (Creator, year) to [explain how tool was used] 
+I used [tool used] (Creator, year) to [explain how tool was used]
 
 **Example acknowledgements:**
 
@@ -2059,7 +2059,7 @@ Note number. Output generated using [AI tool used], Month Day, Year, Creator of 
 
 **Reference list entries**
 
-According to the current advice from the Chicago Manual of Style editors, chatbot conversations are not usually included in a bibliography or reference list. If you need to include these in your reference list, the advice is to use the name of the company as the author and to include the shareable URL or appendix.  
+According to the current advice from the Chicago Manual of Style editors, chatbot conversations are not usually included in a bibliography or reference list. If you need to include these in your reference list, the advice is to use the name of the company as the author and to include the shareable URL or appendix.
 
 **Reference list template and example - shareable URL:**
 
