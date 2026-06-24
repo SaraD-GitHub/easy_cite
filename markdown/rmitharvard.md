@@ -2139,7 +2139,7 @@ For direct quotes, page numbers are only required when they are provided in the 
 
 Cite the author's name (the poster) and the year of publication as you would for other reference types. Make sure, however, the reader knows that it is a social media post by mentioning the post type in the sentence.
 
-> Following the COP26 summit in Glasgow, Greta Thunberg's tweeted that 'the people in power don't need conferences, treaties or agreements to start taking real climate action. They can start today'. (Thunberg 2021a).
+> Following the COP26 summit in Glasgow, Greta Thunberg tweeted that 'the people in power don't need conferences, treaties or agreements to start taking real climate action. They can start today'. (Thunberg 2021a).
 
 > In Greta Thunberg's Instagram post, she asserts that 'we can no longer let the people in power decide what hope is. Hope is not passive' (Thunberg 2021b).
 
