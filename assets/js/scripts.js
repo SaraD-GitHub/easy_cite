@@ -1,4 +1,12 @@
-document.addEventListener('DOMContentLoaded', function () {
+function buildSectionLink({ origin, pathname, styleguide, tabPaneId, dataBsTarget }) {
+  const params = new URLSearchParams();
+  if (styleguide) params.set('styleguide', styleguide);
+  params.set('tab', tabPaneId.replace('sgt-', 'stn-'));
+  params.set('accordion', dataBsTarget.replace(/^#/, ''));
+  return `${origin}${pathname}?${params.toString()}`;
+}
+
+if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', function () {
   //Add event listeners for the Bootstrap collapse
   const contextMenu = document.getElementById('context-menu');
   if (contextMenu) {
@@ -442,3 +450,7 @@ document.addEventListener('DOMContentLoaded', function () {
     element.removeAttribute('tabindex');
   }
 });
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { buildSectionLink };
+}
