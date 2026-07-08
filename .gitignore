@@ -20,6 +20,9 @@ pids
 *.seed
 *.pid.lock
 
+# Superpowers working docs (specs/plans)
+docs/superpowers/
+
 # Compiled source files
 *.pyc
 *.class
