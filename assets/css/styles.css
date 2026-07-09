@@ -15258,6 +15258,222 @@ blockquote nolink {
   }
 }
 
+#home-style-descriptions .link-list li {
+  align-items: center;
+}
+#home-style-descriptions .my-grid {
+  list-style: none;
+  gap: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  #home-style-descriptions .my-grid {
+    margin-top: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #home-style-descriptions .my-grid {
+    margin-bottom: 1.5rem;
+  }
+}
+#home-style-descriptions .my-grid .link-large {
+  margin-top: 0;
+}
+#home-style-descriptions p {
+  margin-top: 0.15rem;
+}
+
+.styleguide-tag {
+  margin-left: 0.5rem;
+  font-size: 0.8125rem;
+  text-wrap: pretty;
+  letter-spacing: 0.02rem;
+  color: #595959;
+  white-space: nowrap;
+}
+@media (min-width: 768px) {
+  .styleguide-tag {
+    font-size: 0.9375rem;
+  }
+}
+
+.styleguide-details__list {
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .styleguide-details__list {
+    margin-top: 1.5rem;
+  }
+}
+.styleguide-details__list > div {
+  margin-bottom: 0.75rem;
+}
+.styleguide-details__list .link-large {
+  margin-top: 0;
+}
+.styleguide-details__list p {
+  margin: 0.1rem 0 0 0;
+  font-size: 0.8125rem;
+  text-wrap: pretty;
+  letter-spacing: 0.02rem;
+  color: #333;
+}
+@media (min-width: 768px) {
+  .styleguide-details__list p {
+    font-size: 0.9375rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .styleguide-live {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+}
+
+.styleguide-live__list li {
+  flex-wrap: wrap;
+}
+
+.styleguide-live__inline {
+  display: block;
+  flex: 0 0 100%;
+  margin: 0.15rem 0 0 2.5rem;
+  font-size: 0.8125rem;
+  text-wrap: pretty;
+  letter-spacing: 0.02rem;
+  color: #333;
+}
+@media (min-width: 768px) {
+  .styleguide-live__inline {
+    font-size: 0.9375rem;
+  }
+}
+@media (min-width: 768px) {
+  .styleguide-live__inline {
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+  }
+  .styleguide-live__inline:not(caption) {
+    position: absolute !important;
+  }
+}
+
+.styleguide-live__pane {
+  display: none;
+}
+@media (min-width: 768px) {
+  .styleguide-live__pane {
+    transition: transform 0.15s ease;
+  }
+}
+@media (min-width: 768px) and (prefers-reduced-motion: reduce) {
+  .styleguide-live__pane {
+    transition: none;
+  }
+}
+@media (min-width: 768px) {
+  .styleguide-live__pane.has-content {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-left: 3px solid #E61E2A;
+    border-radius: 0.25rem;
+    background-color: #000054;
+    color: #fff;
+    font-size: 0.8125rem;
+    text-wrap: pretty;
+    letter-spacing: 0.02rem;
+  }
+}
+@media (min-width: 768px) and (min-width: 768px) {
+  .styleguide-live__pane.has-content {
+    font-size: 0.9375rem;
+  }
+}
+
+[data-bs-theme=dark] .styleguide-live__inline {
+  color: #dfe2e6;
+}
+
+.styleguide-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #000054;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.styleguide-info:focus, .styleguide-info:active, .styleguide-info:active:focus {
+  box-shadow: 0 0 0 0 transparent;
+}
+.styleguide-info:focus-within {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.4);
+  outline-width: 0;
+}
+
+.styleguide-details {
+  margin-top: 1rem;
+}
+@media (min-width: 768px) {
+  .styleguide-details {
+    margin-top: 1.5rem;
+  }
+}
+.styleguide-details summary {
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-wrap: pretty;
+  color: #000054;
+  cursor: pointer;
+  width: fit-content;
+}
+@media (min-width: 768px) {
+  .styleguide-details summary {
+    font-size: 1.25rem;
+  }
+}
+.styleguide-details summary:focus, .styleguide-details summary:active, .styleguide-details summary:active:focus {
+  box-shadow: 0 0 0 0 transparent;
+}
+.styleguide-details summary:focus-within {
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.4);
+  outline-width: 0;
+}
+
+[data-bs-theme=dark] .styleguide-tag {
+  color: #a6a6a6;
+}
+[data-bs-theme=dark] .styleguide-info {
+  color: #6FB7FF;
+}
+[data-bs-theme=dark] .styleguide-details summary {
+  color: #6FB7FF;
+}
+[data-bs-theme=dark] .styleguide-details summary:focus, [data-bs-theme=dark] .styleguide-details summary:active, [data-bs-theme=dark] .styleguide-details summary:active:focus {
+  box-shadow: 0 0 0 0 transparent;
+}
+[data-bs-theme=dark] .styleguide-details summary:focus-within {
+  box-shadow: 0 0 0 0.25rem rgba(111, 183, 255, 0.6);
+  outline-width: 0;
+}
+
 .print-buttons-wrapper {
   display: flex;
   gap: 1.5rem;

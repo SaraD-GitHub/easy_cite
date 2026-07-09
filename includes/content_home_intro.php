@@ -65,6 +65,89 @@
             </ul>
         </nav>
 
+        <!-- START style-guide description options (temporary — for review) -->
+        <div id="home-style-descriptions">
+
+            <h2 class="h3 margin-top-xl">Option A &ndash; info popover on hover/tap</h2>
+            <ul class="link-list">
+                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; $plain = strip_tags($link['label']); ?>
+                    <li>
+                        <a href="#" data-styleguide="<?php echo $sg; ?>"><span><?php echo $link['label']; ?></span></a>
+                        <button type="button" class="styleguide-info"
+                            aria-label="About <?php echo htmlspecialchars($plain); ?>"
+                            data-bs-toggle="popover" data-bs-trigger="focus hover" data-bs-placement="right"
+                            data-bs-content="<?php echo htmlspecialchars($link['description']); ?>">
+                            <span aria-hidden="true">&#9432;</span>
+                        </button>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+
+            <h2 class="h3 margin-top-xl">Option B &ndash; expandable &ldquo;which style?&rdquo;</h2>
+            <details class="styleguide-details">
+                <summary>Which style should I use?</summary>
+                <div class="styleguide-details__list">
+                    <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; ?>
+                        <div>
+                            <a class="link-large" href="#" data-styleguide="<?php echo $sg; ?>"><?php echo $link['label']; ?></a>
+                            <p><?php echo $link['description']; ?></p>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </details>
+
+            <h2 class="h3 margin-top-xl">Option C &ndash; always-visible descriptions</h2>
+            <ul class="my-grid styleguide-grid">
+                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; ?>
+                    <li>
+                        <a class="link-large" href="#" data-styleguide="<?php echo $sg; ?>"><?php echo $link['label']; ?></a>
+                        <p><?php echo $link['description']; ?></p>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+
+            <h2 class="h3 margin-top-xl">Option D &ndash; inline discipline tag</h2>
+            <ul class="link-list">
+                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; ?>
+                    <li>
+                        <a href="#" data-styleguide="<?php echo $sg; ?>"><span><?php echo $link['label']; ?></span></a>
+                        <span class="styleguide-tag"><?php echo $link['tag']; ?></span>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+
+            <h2 class="h3 margin-top-xl">Option H &ndash; live side pane (list left, description right)</h2>
+            <div class="styleguide-live">
+                <ul class="link-list styleguide-live__list" id="styleguide-h-list">
+                    <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; $descId = 'h-desc-' . $link['id']; ?>
+                        <li>
+                            <a href="#" data-styleguide="<?php echo $sg; ?>" data-desc="<?php echo htmlspecialchars($link['description']); ?>" aria-describedby="<?php echo $descId; ?>"><span><?php echo $link['label']; ?></span></a>
+                            <span class="styleguide-live__inline" id="<?php echo $descId; ?>"><?php echo $link['description']; ?></span>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+                <div class="styleguide-live__pane" id="styleguide-h-pane" aria-hidden="true"></div>
+            </div>
+
+            <h2 class="h3 margin-top-xl">Option G &ndash; discipline tag + info popover</h2>
+            <ul class="link-list">
+                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; $plain = strip_tags($link['label']); ?>
+                    <li>
+                        <a href="#" data-styleguide="<?php echo $sg; ?>"><span><?php echo $link['label']; ?></span></a>
+                        <span class="styleguide-tag"><?php echo $link['tag']; ?></span>
+                        <button type="button" class="styleguide-info"
+                            aria-label="About <?php echo htmlspecialchars($plain); ?>"
+                            data-bs-toggle="popover" data-bs-trigger="focus hover" data-bs-placement="right"
+                            data-bs-content="<?php echo htmlspecialchars($link['description']); ?>">
+                            <span aria-hidden="true">&#9432;</span>
+                        </button>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+
+        </div>
+        <!-- END style-guide description options -->
+
 
         <blockquote class="complex">
             <a href="https://learninglab.rmit.edu.au/content/referencing" target="_blank" aria-label="Referencing tutorial on Learning Lab. Opens in a new tab.">

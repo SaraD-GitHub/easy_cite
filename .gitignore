@@ -23,6 +23,10 @@ pids
 # Superpowers working docs (specs/plans)
 docs/superpowers/
 
+# Claude Code config and instructions
+.claude/
+CLAUDE.md
+
 # Compiled source files
 *.pyc
 *.class

@@ -253,6 +253,41 @@ if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded
     homeSectionMenu.addEventListener('click', updateQueryStringAndReload);
   }
 
+  // Style-guide description options on the homepage (temporary review scaffold)
+  const homeStyleDescriptions = document.getElementById('home-style-descriptions');
+  if (homeStyleDescriptions) {
+    homeStyleDescriptions.addEventListener('click', updateQueryStringAndReload);
+  }
+  if (typeof bootstrap !== 'undefined') {
+    document.querySelectorAll('[data-bs-toggle="popover"]').forEach((el) => new bootstrap.Popover(el));
+  }
+
+  // Option H: live side pane updates as you hover/focus a style
+  const styleguideHList = document.getElementById('styleguide-h-list');
+  const styleguideHPane = document.getElementById('styleguide-h-pane');
+  if (styleguideHList && styleguideHPane) {
+    const showDesc = (e) => {
+      const link = e.target.closest('a[data-desc]');
+      if (!link) return;
+      styleguideHPane.textContent = link.getAttribute('data-desc');
+      styleguideHPane.classList.add('has-content');
+      // Track the hovered item: centre the card on it vertically
+      const listRect = styleguideHList.getBoundingClientRect();
+      const linkRect = link.getBoundingClientRect();
+      const offset = linkRect.top - listRect.top + linkRect.height / 2 - styleguideHPane.offsetHeight / 2;
+      styleguideHPane.style.transform = `translateY(${Math.max(0, offset)}px)`;
+    };
+    const hideDesc = (e) => {
+      // On focusout, keep it if focus simply moved to another style in the list
+      if (e && e.relatedTarget && styleguideHList.contains(e.relatedTarget)) return;
+      styleguideHPane.classList.remove('has-content');
+    };
+    styleguideHList.addEventListener('mouseover', showDesc);
+    styleguideHList.addEventListener('focusin', showDesc);
+    styleguideHList.addEventListener('mouseleave', hideDesc);
+    styleguideHList.addEventListener('focusout', hideDesc);
+  }
+
   // Add event listeners for navigation tab clicks
   const menuTab = document.getElementById('context-menu');
   if (menuTab) {
