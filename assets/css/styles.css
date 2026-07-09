@@ -12816,6 +12816,63 @@ and last child has no margin bottom
   outline-width: 0;
 }
 
+.accordion-item .accordion-button.js-no-focus-ring:focus-within {
+  box-shadow: none;
+  outline: none;
+}
+
+.accordion-header {
+  position: relative;
+}
+
+.copy-section-link {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: currentColor;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(-50%) translateX(-0.25rem);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.accordion-header:hover .copy-section-link,
+.copy-section-link:focus-visible,
+.copy-section-link.is-copied {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+.copy-section-link__status {
+  position: absolute;
+  bottom: calc(100% + 0.25rem);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: #000054;
+  color: #fff;
+  font-size: 0.75rem;
+  line-height: 1;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.copy-section-link.is-copied .copy-section-link__status {
+  opacity: 1;
+}
+
 blockquote {
   display: block;
   margin-top: 1.5rem;
