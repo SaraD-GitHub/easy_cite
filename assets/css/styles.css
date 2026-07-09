@@ -12816,6 +12816,7 @@ and last child has no margin bottom
   outline-width: 0;
 }
 
+.accordion-item .accordion-button:focus-within:not(:focus-visible),
 .accordion-item .accordion-button.js-no-focus-ring:focus-within {
   box-shadow: none;
   outline: none;

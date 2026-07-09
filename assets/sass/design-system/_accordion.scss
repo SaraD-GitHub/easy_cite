@@ -252,8 +252,9 @@ and last child has no margin bottom
 }
 
 
-// A deep link programmatically focuses the target section; suppress the focus
-// ring for that case only (genuine keyboard focus still shows it).
+// Show the accordion focus ring for genuine keyboard focus only — not mouse
+// clicks, and not the programmatic focus a deep link performs.
+.accordion-item .accordion-button:focus-within:not(:focus-visible),
 .accordion-item .accordion-button.js-no-focus-ring:focus-within {
     box-shadow: none;
     outline: none;
