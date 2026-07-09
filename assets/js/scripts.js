@@ -292,6 +292,8 @@ if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded
       '<span class="copy-section-link__status" aria-live="polite"></span>';
 
     const status = copyBtn.querySelector('.copy-section-link__status');
+    const copyLabel = 'Copy link to this section';
+    status.textContent = copyLabel;
     let revertTimer;
     copyBtn.addEventListener('click', function (event) {
       event.stopPropagation();
@@ -310,7 +312,7 @@ if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded
       clearTimeout(revertTimer);
       revertTimer = setTimeout(() => {
         copyBtn.classList.remove('is-copied');
-        status.textContent = '';
+        status.textContent = copyLabel;
       }, 1200);
     });
 
