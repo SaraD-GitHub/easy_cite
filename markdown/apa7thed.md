@@ -1425,6 +1425,7 @@ For your reference list entries: you could describe the music Format as: [Album]
 In your writing:
 
 > If you are citing music that is a classical album or composition, the person or group that created it is referred to as a **composer**.
+
 > If you are citing music that is a modern album or song, the person or group that created it is referred to as a recording **artist**.
 
 #### Individual song or track
@@ -1447,6 +1448,7 @@ Songs or tracks with an associated album, produced by one or more record company
 If song or track is produced by:
 
 > Multiple record companies/labels (the Producer), separate each Producer with a semicolon.
+
 > Only one record company/label, only put the one Producer.
 
 **Rule**
@@ -1475,6 +1477,7 @@ If song or track is produced by:
 If music album is produced by:
 
 > Multiple record companies/labels (the Record Company), separate each Record Company with a semicolon.
+
 > Only one record company/label, only put the one Record Company.
 
 **Rule**
