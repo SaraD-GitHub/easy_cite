@@ -1405,7 +1405,137 @@ Provide the exact URL in the retrieval statement.
 
 ###### start-subtype-content
 
-Text to replace.
+The author of the work is usually the recording artist/ composer/ creator.  This may be an individual or group:
+
+> **If the music artist, composer or sound creator has a first name and last name:** use the 'Last Name, First Name Initial' format, e.g. Smith, S. ; Mars, B., Lopez, J. ; Blige, M. J. ; Jackson, Rieu, A. ; M. ; Keys, A. ; Carey, M. ; Mozart, W. A. ; Bach, J. S. ; Tchaikovsky, P. I. ; Beethoven, L. V.
+
+> **If the music artist, composer or sound creator uses one name, or does not have a last name & first name:** write their name exactly as shown on their work, e.g. Beyoncé, U2, Green Day, Rosé, Backstreet Boys, R.E.M., Blackpink, The Rolling Stones, One Direction, Spice Girls, Jon Bon Jovi, Maroon 5, Guns N' Roses, OneRepublic, Missy Elliott, 50 Cent.
+
+If the work you are citing features *another* music artist:
+
+> In parentheses, place the by the word ‘featuring’ followed by a comma and space, then place the featured artist’s name (Last Name, First Name Initial or exactly as their name appears on the work) **after** the main artist’s name.
+> Example: Rosé (featuring, Mars, B.)
+
+For your reference list entries: you could describe the music Format as: [Album] or [Song].
+
+In your writing:
+
+> If you are citing music that is a classical album or composition, the person or group that created it is referred to as a **composer**.
+> If you are citing music that is a modern album or song, the person or group that created it is referred to as a recording **artist**.
+
+#### Individual song or track
+
+Songs or tracks with an associated album, produced by one or more record company/label.
+
+##### In-text citation
+
+> ***Parenthetical citation:*** (Recording artist/composer, year produced), e.g. (Coldplay & BTS, 2021).
+> ***Author-prominent:*** Recording artist/composer (year produced), e.g. Coldplay and BTS (2021).
+
+**Examples**
+
+> {.hanging-indent}The song's lyrics (Coldplay & BTS, 2021) have always been about... {/.hanging-indent}
+
+> {.hanging-indent}The song lyrics by Coldplay and BTS (2021) have always been about... {/.hanging-indent}
+
+##### Reference list entry
+
+If song or track is produced by:
+
+> Multiple record companies/labels (the Producer), separate each Producer with a semicolon.
+> Only one record company/label, only put the one Producer.
+
+**Rule**
+
+> {.hanging-indent}Recording artist/composer. (Year). Song title [Format]. On *Title of album*. Producer; Producer. {/.hanging-indent}
+
+**Example** 
+
+> {.hanging-indent}Coldplay, & BTS. (2021). My universe [Song]. On *Music of the spheres*. Parlophone; Atlantic. {/.hanging-indent}
+
+#### Music album
+
+##### In-text citation
+
+> ***Parenthetical citation:*** (Recording artist/composer, year produced), e.g. (U2, 1988).
+> ***Author-prominent:*** Recording artist/composer (year produced), e.g. U2 (1988).
+
+**Examples**
+
+> {.hanging-indent}Part of the song’s lyric, "You look so pretty in the face of danger", (U2, 1988) is about... {/.hanging-indent}
+
+> {.hanging-indent}In a song by U2 (1988) part of the lyric, "You look so pretty in the face of danger", is about... {/.hanging-indent}
+
+##### Reference list entry
+
+If music album is produced by:
+
+> Multiple record companies/labels (the Record Company), separate each Record Company with a semicolon.
+> Only one record company/label, only put the one Record Company.
+
+**Rule**
+
+> {.hanging-indent}Recording artist/composer. (Year). *Title of album* [Album]. Record Company; Record Company. (Original work published Year - if needed). Web address - if needed {/.hanging-indent}
+
+**Example** 
+
+> {.hanging-indent}U2. (1988). *Rattle & hum* [Album]. Island; Point Depot; Danesmoat; STS Studio; A&M Studio; Ocean Way. {/.hanging-indent}
+
+#### Sound effects (sound libraries)
+
+Sound effects from sound libraries that can be downloaded and used in the creation of audiovisual media such as video and podcasts. 
+
+Sound effects can be sourced from a library database or website. 
+
+The creator of the sound effect may be an organisation or a person. If it is a person, they may have a last name and first name, or a username. Put the creator’s name exactly as it appears in the work. 
+
+If the sound effect has no year of creation, put **n.d.** instead.
+
+##### In-text citation
+
+> ***Parenthetical citation:*** (Creator, year produced). Examples: (Alvear, n.d.); (BBC, 1973).
+> ***Author-prominent:*** Creator (year produced). Examples: Alvear (n.d.); BBC (1973).
+
+**Examples**
+
+> {.hanging-indent}A cheerful, upbeat, funky jazz piece is one of the sound effects used (Alvear, n.d.). {/.hanging-indent}
+
+> {.hanging-indent}BBC (1973) provides a sound effect that is of a country scene, with sheep and lambs bleating, birds singing, and a stream flowing through a meadow. {/.hanging-indent}
+
+##### Reference list entry
+
+If the sound effect: 
+
+> Is from a website, put the website name and URL link.
+> Is from a library database, put the database name.
+> Has a year of creation, but no month and day, put the year and omit month and day.
+> Has no year or date of creation, put **n.d.** instead.
+
+**FROM A WEBSITE**
+
+**Rule**
+
+> {.hanging-indent}Creator. (Year, Month Day). *Title of sound effect* [Sound effect]. Website Name. URL {/.hanging-indent}
+
+**Examples**
+
+> {.hanging-indent}AleXZavesa. (2026, April 14). *Calm inspiring piano logo (short version)* [Sound effect]. Pixabay. https://pixabay.com/sound-effects/musical-calm-inspiring-piano-logo-short-version-518990/ {/.hanging-indent}
+
+> {.hanging-indent}Alvear, F. (n.d.). *Upbeat jazz* [Sound effect]. Mixkit. https://mixkit.co/free-stock-music/discover/upbeat/ {/.hanging-indent}
+
+> {.hanging-indent}BBC. (1973). *Birds - country scene - sheep and lambs with birdsong and stream in meadow - 1973 (1B6, reprocessed)* [Sound effect]. BBC Sound Effects. https://sound-effects.bbcrewind.co.uk/search?q=07060026 {/.hanging-indent}
+
+> {.hanging-indent}Stek59. (2021, July 1). *Steam train passing by* [Sound effect]. Freesound. https://freesound.org/people/Stek59/sounds/578759/ {/.hanging-indent}
+
+**FROM A LIBRARY DATABASE**
+
+**Rule**
+
+> {.hanging-indent}Creator. (Year, Month Day). *Title of sound effect* [Sound effect]. Database Name. {/.hanging-indent}
+
+**Example**
+
+> {.hanging-indent}ProSoundEffects. (n.d.). *WaterOceanWaves S011WR.82* [Sound effect]. ProSoundEffects. {/.hanging-indent}
 
 ###### end-subtype-content
 
