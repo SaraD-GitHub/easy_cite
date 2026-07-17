@@ -1419,7 +1419,7 @@ If the work you are citing features *another* music artist:
 
 For your reference list entries:
 
-- You could describe the music Format as: [Album] or [Song].
+- You could describe the music Format as [Album] or [Song].
 
 In your writing:
 
