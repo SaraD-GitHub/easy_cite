@@ -1405,23 +1405,26 @@ Provide the exact URL in the retrieval statement.
 
 ###### start-subtype-content
 
-The author of the work is usually the recording artist/ composer/ creator.  This may be an individual or group:
+The author of the work is usually the recording artist/composer/creator. This may be an individual or group:
 
-> **If the music artist, composer or sound creator has a first name and last name:** use the 'Last Name, First Name Initial' format, e.g. Smith, S. ; Mars, B., Lopez, J. ; Blige, M. J. ; Jackson, Rieu, A. ; M. ; Keys, A. ; Carey, M. ; Mozart, W. A. ; Bach, J. S. ; Tchaikovsky, P. I. ; Beethoven, L. V.
+- **If the music artist, composer or sound creator has a first name and last name:** use the 'Last Name, First Name Initial' format, e.g. Smith, S. ; Mars, B., Lopez, J. ; Blige, M. J. ; Jackson, Rieu, A. ; M. ; Keys, A. ; Carey, M. ; Mozart, W. A. ; Bach, J. S. ; Tchaikovsky, P. I. ; Beethoven, L. V.
 
-> **If the music artist, composer or sound creator uses one name, or does not have a last name & first name:** write their name exactly as shown on their work, e.g. Beyoncé, U2, Green Day, Rosé, Backstreet Boys, R.E.M., Blackpink, The Rolling Stones, One Direction, Spice Girls, Jon Bon Jovi, Maroon 5, Guns N' Roses, OneRepublic, Missy Elliott, 50 Cent.
+- **If the music artist, composer or sound creator uses one name, or does not have a last name & first name:** write their name exactly as shown on their work, e.g. Beyoncé, U2, Green Day, Rosé, Backstreet Boys, R.E.M., Blackpink, The Rolling Stones, One Direction, Spice Girls, Jon Bon Jovi, Maroon 5, OneRepublic, Missy Elliott, 50 Cent.
 
 If the work you are citing features *another* music artist:
 
-> In parentheses, place the by the word ‘featuring’ followed by a comma and space, then place the featured artist’s name (Last Name, First Name Initial or exactly as their name appears on the work) **after** the main artist’s name.
-> Example: Rosé (featuring, Mars, B.)
+- In parentheses, place the by the word ‘featuring’ followed by a comma and space, then place the featured artist’s name (Last Name, First Name Initial or exactly as their name appears on the work) **after** the main artist’s name.
 
-For your reference list entries: you could describe the music Format as: [Album] or [Song].
+- Example: Rosé (featuring, Mars, B.)
+
+For your reference list entries:
+
+- You could describe the music Format as [Album] or [Song].
 
 In your writing:
 
-> If you are citing music that is a classical album or composition, the person or group that created it is referred to as a **composer**.
-> If you are citing music that is a modern album or song, the person or group that created it is referred to as a recording **artist**.
+- If you are citing music that is a classical album or composition, the person or group that created it is referred to as a **composer**.
+- If you are citing music that is a modern album or song, the person or group that created it is referred to as a recording **artist**.
 
 #### Individual song or track
 
@@ -1429,8 +1432,11 @@ Songs or tracks with an associated album, produced by one or more record company
 
 ##### In-text citation
 
-> ***Parenthetical citation:*** (Recording artist/composer, year produced), e.g. (Coldplay & BTS, 2021).
-> ***Author-prominent:*** Recording artist/composer (year produced), e.g. Coldplay and BTS (2021).
+**Rules**
+
+> {.hanging-indent}***Parenthetical citation:*** (Recording artist/composer, year produced), e.g. (Coldplay & BTS, 2021). {/.hanging-indent}
+
+> {.hanging-indent}***Author-prominent:*** Recording artist/composer (year produced), e.g. Coldplay and BTS (2021). {/.hanging-indent}
 
 **Examples**
 
@@ -1442,8 +1448,8 @@ Songs or tracks with an associated album, produced by one or more record company
 
 If song or track is produced by:
 
-> Multiple record companies/labels (the Producer), separate each Producer with a semicolon.
-> Only one record company/label, only put the one Producer.
+- Multiple record companies/labels (the Producer), separate each Producer with a semicolon.
+- Only one record company/label, only put the one Producer.
 
 **Rule**
 
@@ -1457,7 +1463,10 @@ If song or track is produced by:
 
 ##### In-text citation
 
+**Rules**
+
 > ***Parenthetical citation:*** (Recording artist/composer, year produced), e.g. (U2, 1988).
+
 > ***Author-prominent:*** Recording artist/composer (year produced), e.g. U2 (1988).
 
 **Examples**
@@ -1470,8 +1479,8 @@ If song or track is produced by:
 
 If music album is produced by:
 
-> Multiple record companies/labels (the Record Company), separate each Record Company with a semicolon.
-> Only one record company/label, only put the one Record Company.
+- Multiple record companies/labels (the Record Company), separate each Record Company with a semicolon.
+- Only one record company/label, only put the one Record Company.
 
 **Rule**
 
@@ -1493,8 +1502,11 @@ If the sound effect has no year of creation, put **n.d.** instead.
 
 ##### In-text citation
 
-> ***Parenthetical citation:*** (Creator, year produced). Examples: (Alvear, n.d.); (BBC, 1973).
-> ***Author-prominent:*** Creator (year produced). Examples: Alvear (n.d.); BBC (1973).
+**Rules**
+
+> {.hanging-indent}***Parenthetical citation:*** (Creator, year produced). Examples: (Alvear, n.d.); (BBC, 1973). {/.hanging-indent}
+
+> {.hanging-indent}***Author-prominent:*** Creator (year produced). Examples: Alvear (n.d.); BBC (1973). {/.hanging-indent}
 
 **Examples**
 
@@ -1506,10 +1518,10 @@ If the sound effect has no year of creation, put **n.d.** instead.
 
 If the sound effect: 
 
-> Is from a website, put the website name and URL link.
-> Is from a library database, put the database name.
-> Has a year of creation, but no month and day, put the year and omit month and day.
-> Has no year or date of creation, put **n.d.** instead.
+- Is from a website, put the website name and URL link.
+- Is from a library database, put the database name.
+- Has a year of creation, but no month and day, put the year and omit month and day.
+- Has no year or date of creation, put **n.d.** instead.
 
 **FROM A WEBSITE**
 
