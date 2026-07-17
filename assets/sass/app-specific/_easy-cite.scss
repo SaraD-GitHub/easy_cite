@@ -541,129 +541,7 @@ blockquote nolink {
   }
 }
 
-// Style-guide description options on the homepage (temporary — for review)
-#home-style-descriptions {
-    .link-list li {
-        align-items: center;
-    }
-
-    .my-grid {
-        list-style: none;
-        gap: 0.75rem 1.5rem;
-        @include do-space(margin-top, sm);
-        @include do-space(margin-bottom, sm);
-    }
-
-    .my-grid .link-large {
-        margin-top: 0;
-    }
-
-    p {
-        margin-top: 0.15rem;
-    }
-}
-
-.styleguide-tag {
-    margin-left: 0.5rem;
-    @include type-small;
-    color: #595959; // muted, but ≥ 4.5:1 on white for WCAG AA
-    white-space: nowrap;
-}
-
-// Option B: single-column, tight "which style?" list
-.styleguide-details__list {
-    @include do-space(margin-top, sm);
-
-    > div {
-        margin-bottom: 0.75rem;
-    }
-
-    .link-large {
-        margin-top: 0;
-    }
-
-    p {
-        margin: 0.1rem 0 0 0;
-        @include type-small;
-        color: $body-color;
-    }
-}
-
-// Option H: list left, live description pane right (desktop);
-// inline descriptions under each style (mobile, no hover)
-.styleguide-live {
-    @include media-breakpoint-up(md) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
-        align-items: start;
-    }
-}
-
-.styleguide-live__list li {
-    flex-wrap: wrap;
-}
-
-.styleguide-live__inline {
-    display: block;
-    flex: 0 0 100%;
-    margin: 0.15rem 0 0 2.5rem;
-    @include type-small;
-    color: $body-color;
-
-    // Desktop: hidden visually but kept in the a11y tree for aria-describedby
-    @include media-breakpoint-up(md) {
-        @include visually-hidden;
-    }
-}
-
-// No box until a style is pointed at; branded navy card, natural height
-.styleguide-live__pane {
-    display: none;
-
-    @include media-breakpoint-up(md) {
-        transition: transform 0.15s ease;
-
-        @media (prefers-reduced-motion: reduce) {
-            transition: none;
-        }
-
-        &.has-content {
-            display: block;
-            padding: 0.5rem 0.75rem;
-            border-left: 3px solid $rmit-red;
-            border-radius: 0.25rem;
-            background-color: $rmit-blue;
-            color: $white;
-            @include type-small;
-        }
-    }
-}
-
-@include color-mode(dark) {
-    .styleguide-live__inline {
-        color: $body-color-dark;
-    }
-}
-
-.styleguide-info {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-left: 0.5rem;
-    padding: 0;
-    border: 0;
-    border-radius: 50%;
-    background: transparent;
-    color: $link-color;
-    font-size: 1rem;
-    line-height: 1;
-    cursor: pointer;
-    @include default-focus;
-}
-
+// Homepage "Which referencing style should I use?" expander
 .styleguide-details {
     @include do-space(margin-top, sm);
 
@@ -676,15 +554,25 @@ blockquote nolink {
     }
 }
 
+.styleguide-details__body {
+    @include do-space(margin-top, sm);
+    max-width: 40rem;
+
+    > p:first-child {
+        margin-top: 0;
+    }
+
+    h3 {
+        margin-top: 1.25rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 0.25rem;
+    }
+}
+
 @include color-mode(dark) {
-    .styleguide-tag {
-        color: #a6a6a6; // muted, but sufficient contrast on the dark background
-    }
-
-    .styleguide-info {
-        color: $link-color-dark;
-    }
-
     .styleguide-details summary {
         color: $link-color-dark;
         @include default-focus('dark');

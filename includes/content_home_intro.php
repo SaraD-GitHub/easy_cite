@@ -65,88 +65,30 @@
             </ul>
         </nav>
 
-        <!-- START style-guide description options (temporary — for review) -->
-        <div id="home-style-descriptions">
+        <details class="styleguide-details">
+            <summary>Which referencing style should I use?</summary>
+            <div class="styleguide-details__body">
+                <p>Always check your assignment instructions to see if a specific referencing style is listed. If you can choose what style to use, the RMIT Library Easy Cite guide provides support for the following:</p>
 
-            <h2 class="h3 margin-top-xl">Option A &ndash; info popover on hover/tap</h2>
-            <ul class="link-list">
-                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; $plain = strip_tags($link['label']); ?>
-                    <li>
-                        <a href="#" data-styleguide="<?php echo $sg; ?>"><span><?php echo $link['label']; ?></span></a>
-                        <button type="button" class="styleguide-info"
-                            aria-label="About <?php echo htmlspecialchars($plain); ?>"
-                            data-bs-toggle="popover" data-bs-trigger="focus hover" data-bs-placement="right"
-                            data-bs-content="<?php echo htmlspecialchars($link['description']); ?>">
-                            <span aria-hidden="true">&#9432;</span>
-                        </button>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
+                <h3>AGLC</h3>
+                <p>The AGLC (Australian Guide to Legal Citation) is the official legal citation guide in Australia and is used by legal practitioners, law students and academics. It is a footnote referencing style.</p>
 
-            <h2 class="h3 margin-top-xl">Option B &ndash; expandable &ldquo;which style?&rdquo;</h2>
-            <details class="styleguide-details">
-                <summary>Which style should I use?</summary>
-                <div class="styleguide-details__list">
-                    <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; ?>
-                        <div>
-                            <a class="link-large" href="#" data-styleguide="<?php echo $sg; ?>"><?php echo $link['label']; ?></a>
-                            <p><?php echo $link['description']; ?></p>
-                        </div>
-                    <?php endforeach; ?>
-                </div>
-            </details>
+                <h3>APA</h3>
+                <p>The APA (American Psychological Association) referencing style is widely used in education, psychology, nursing, business and other fields. It is based on a detailed source manual and the official style advice is regularly updated. There are many APA guides and support resources available worldwide. It is an author-date referencing style.</p>
 
-            <h2 class="h3 margin-top-xl">Option C &ndash; always-visible descriptions</h2>
-            <ul class="my-grid styleguide-grid">
-                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; ?>
-                    <li>
-                        <a class="link-large" href="#" data-styleguide="<?php echo $sg; ?>"><?php echo $link['label']; ?></a>
-                        <p><?php echo $link['description']; ?></p>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
+                <h3>Chicago</h3>
+                <p>The Chicago referencing style is often used in art, design, architecture, music, history and the humanities. The style manual includes detailed advice on referencing artworks, exhibitions and live performances, as well as commonly-used source types such as books, journal articles and websites. There are two versions of the Chicago style, A (notes and bibliography) and B (author-date).</p>
 
-            <h2 class="h3 margin-top-xl">Option D &ndash; inline discipline tag</h2>
-            <ul class="link-list">
-                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; ?>
-                    <li>
-                        <a href="#" data-styleguide="<?php echo $sg; ?>"><span><?php echo $link['label']; ?></span></a>
-                        <span class="styleguide-tag"><?php echo $link['tag']; ?></span>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
+                <h3>IEEE</h3>
+                <p>The IEEE (Institute of Electrical and Electronics Engineers) referencing style is often used in electrical and electronic engineering, computer science and other technical fields. It is a numbered referencing style.</p>
 
-            <h2 class="h3 margin-top-xl">Option H &ndash; live side pane (list left, description right)</h2>
-            <div class="styleguide-live">
-                <ul class="link-list styleguide-live__list" id="styleguide-h-list">
-                    <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; $descId = 'h-desc-' . $link['id']; ?>
-                        <li>
-                            <a href="#" data-styleguide="<?php echo $sg; ?>" data-desc="<?php echo htmlspecialchars($link['description']); ?>" aria-describedby="<?php echo $descId; ?>"><span><?php echo $link['label']; ?></span></a>
-                            <span class="styleguide-live__inline" id="<?php echo $descId; ?>"><?php echo $link['description']; ?></span>
-                        </li>
-                    <?php endforeach; ?>
-                </ul>
-                <div class="styleguide-live__pane" id="styleguide-h-pane" aria-hidden="true"></div>
+                <h3>RMIT Harvard</h3>
+                <p>There is no <a href="https://ask.library.harvard.edu/faq/81735" target="_blank" rel="noopener">official version<span class="visually-hidden"> (opens in a new tab)</span></a> of the &lsquo;Harvard&rsquo; referencing style, and different institutions create their own based on a variety of source manuals. The RMIT Harvard style is based on the Australian Government Style Manual (AGSM). This manual mainly focuses on Australian government sources and is not as comprehensive as other author-date styles such as APA.</p>
+
+                <h3>Vancouver</h3>
+                <p>The Vancouver referencing style is often used in medicine, biomedical science and health sciences. There are several versions of the Vancouver style &ndash; the Vancouver Easy Cite style is based on <a href="https://www.ncbi.nlm.nih.gov/books/NBK7256/" target="_blank" rel="noopener">Citing Medicine, 2nd edition: The NLM Style Guide for Authors, Editors, and Publishers<span class="visually-hidden"> (opens in a new tab)</span></a>. It is a numbered referencing style.</p>
             </div>
-
-            <h2 class="h3 margin-top-xl">Option G &ndash; discipline tag + info popover</h2>
-            <ul class="link-list">
-                <?php foreach ($menu_links as $link): $sg = 'styleguide-' . $link['id']; $plain = strip_tags($link['label']); ?>
-                    <li>
-                        <a href="#" data-styleguide="<?php echo $sg; ?>"><span><?php echo $link['label']; ?></span></a>
-                        <span class="styleguide-tag"><?php echo $link['tag']; ?></span>
-                        <button type="button" class="styleguide-info"
-                            aria-label="About <?php echo htmlspecialchars($plain); ?>"
-                            data-bs-toggle="popover" data-bs-trigger="focus hover" data-bs-placement="right"
-                            data-bs-content="<?php echo htmlspecialchars($link['description']); ?>">
-                            <span aria-hidden="true">&#9432;</span>
-                        </button>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
-
-        </div>
-        <!-- END style-guide description options -->
+        </details>
 
 
         <blockquote class="complex">
