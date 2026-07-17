@@ -540,3 +540,41 @@ blockquote nolink {
     border-bottom: none;
   }
 }
+
+// Homepage "Which referencing style should I use?" expander
+.styleguide-details {
+    @include do-space(margin-top, sm);
+
+    summary {
+        @include type-lead;
+        color: $link-color;
+        cursor: pointer;
+        width: fit-content;
+        @include default-focus;
+    }
+}
+
+.styleguide-details__body {
+    @include do-space(margin-top, sm);
+    max-width: 40rem;
+
+    > p:first-child {
+        margin-top: 0;
+    }
+
+    h3 {
+        margin-top: 1.25rem;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 0.25rem;
+    }
+}
+
+@include color-mode(dark) {
+    .styleguide-details summary {
+        color: $link-color-dark;
+        @include default-focus('dark');
+    }
+}
