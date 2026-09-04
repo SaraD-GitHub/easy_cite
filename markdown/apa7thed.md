@@ -327,7 +327,7 @@ Secondary citations should be used sparingly. For example, when the original wor
 
 Where possible, instead of citing a secondary source, it is best to find the primary source, read and understand its information, and cite it directly.
 
-If you need to use a secondary citation, the following information details how to cite it in-text and in the reference list:
+#### Using secondary citations:
 
 For example, if you read an article written by Hosany and Martin (secondary source) and they cite information from a study written by Heath and Scott (primary source), you would need to acknowledge Heath and Scott (primary source) and the publication year of their work in the in-text citation:
 
