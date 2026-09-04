@@ -329,7 +329,7 @@ Where possible, instead of citing a secondary source, it is best to find the pri
 
 If you need to use a secondary citation, the following information details how to cite it in-text and in the reference list:
 
-For example, if you read an article written by Hosany and Martin (secondary source) and they cite information from another study written by Heath and Scott (primary source), you would need to acknowledge Heath and Scott (primary source) and the publication year of their work in the in-text citation:
+For example, if you read an article written by Hosany and Martin (secondary source) and they cite information from a study written by Heath and Scott (primary source), you would need to acknowledge Heath and Scott (primary source) and the publication year of their work in the in-text citation:
 
 > Heath and Scott (1998, as cited in Hosany & Martin, 2012) claim that...
 
