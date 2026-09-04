@@ -335,7 +335,7 @@ For example, if you read an article written by Hosany and Martin (secondary sour
 
 > Early research indicated... (Heath & Scott, 1998, as cited in Hosany & Martin, 2012).
 
-In the reference list, you need to include the citation information for the Hosany and Martin article (secondary source) as that is where the Heath and Scott information (primary source) was cited:
+In the reference list, only Hosany and Martin (secondary source) is included, **not** Heath and Scott (primary source).
 
 > {.hanging-indent}Hosany, S., & Martin, D. (2012). Self-image congruence in consumer behavior. *Journal of Business Research*, *65*(5), 685-691. https://doi.org/10.1016/j.jbusres.2011.03.015 {/.hanging-indent}
 
